@@ -23,7 +23,7 @@ const LoginPage = () => {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ textAlign: 'center' }}>
         <p style={{ width: '100px' }}>Welcome to</p>
-        <h1 style={{ color: '#f1f11c', width: '150px' }}>TAXCO</h1>
+        <h1 style={{ color: '#f1f11c', width: '150px', marginright: '15vw'}}>T A X C O</h1>
         <form onSubmit={handleSubmit}>
           <div style={{ marginBottom: '1rem' }}>
             <label htmlFor="userId" style={{ width: '100px', display: 'inline-block' }}>User ID:</label>
@@ -61,7 +61,7 @@ const LoginPage = () => {
               boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)' // Add a subtle box shadow for depth
             }}
           >
-            Login
+            LOGIN
           </button>
           <p>
             <button
@@ -79,7 +79,8 @@ const LoginPage = () => {
               Forgot Password?
             </button>
           </p>
-          <p style={{ marginTop: '2rem' }}>Developed and managed by ARKONET</p>
+          <p style={{ marginTop: '2rem' }}>Developed and managed by</p>
+          <p>ARKONET</p>
         </form>
       </div>
     </div>
